@@ -1,16 +1,12 @@
 {
-    "CN": "example.com",
+    "CN": "Robert's AWS Root CA",
     "names": [
         {
-            "C": "US",
-            "L": "San Francisco",
-            "O": "Internet Widgets, Inc.",
-            "OU": "WWW",
-            "ST": "California"
+            "C": "UK",
+            "L": "London",
+            "O": "Robert's AWS",
+            "OU": "Root CA",
+            "ST": "England"
         }
-    ],
-    "ca": {
-        "expiry": "8760h",
-        "is_ca": true
-    }
+    ]
 }

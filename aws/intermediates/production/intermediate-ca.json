@@ -1,15 +1,15 @@
 {
-    "CN": "Intermediate CA",
+    "CN": "Robert's Production AWS Intermediate CA",
     "key": {
         "algo": "rsa",
         "size": 2048
     },
     "names": [
         {
-            "C": "GB",
+            "C": "UK",
             "L": "London",
-            "O": "Example Org",
-            "OU": "Example Intermediate CA",
+            "O": "Robert's AWS",
+            "OU": "Production Intermediate CA",
             "ST": "England"
         }
     ],

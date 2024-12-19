@@ -1,7 +1,6 @@
 {
-    "CN": "example.com",
+    "CN": "Cert Manager",
     "hosts": [
-        "example.com",
-        "www.example.com"
+        "cm.example.com"
     ]
 }
