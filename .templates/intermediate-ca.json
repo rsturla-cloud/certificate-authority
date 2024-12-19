@@ -1,0 +1,20 @@
+{
+    "CN": "Example Intermediate CA",
+    "key": {
+        "algo": "rsa",
+        "size": 2048
+    },
+    "names": [
+        {
+            "C": "GB",
+            "L": "London",
+            "O": "Example Org",
+            "OU": "Example Intermediate CA",
+            "ST": "England"
+        }
+    ],
+    "ca": {
+        "is_ca": true,
+        "expiry": "42720h"
+    }
+}

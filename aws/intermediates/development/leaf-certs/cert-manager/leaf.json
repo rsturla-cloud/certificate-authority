@@ -1,0 +1,7 @@
+{
+    "CN": "example.com",
+    "hosts": [
+        "example.com",
+        "www.example.com"
+    ]
+}

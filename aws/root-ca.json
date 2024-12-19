@@ -1,0 +1,16 @@
+{
+    "CN": "example.com",
+    "names": [
+        {
+            "C": "US",
+            "L": "San Francisco",
+            "O": "Internet Widgets, Inc.",
+            "OU": "WWW",
+            "ST": "California"
+        }
+    ],
+    "ca": {
+        "expiry": "8760h",
+        "is_ca": true
+    }
+}

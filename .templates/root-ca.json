@@ -1,0 +1,15 @@
+{
+    "CN": "Examlpe Root CA",
+    "names": [
+        {
+            "C": "GB",
+            "L": "London",
+            "O": "Example Org",
+            "OU": "Root CA",
+            "ST": "England"
+        }
+    ],
+    "ca": {
+        "is_ca": true
+    }
+}
