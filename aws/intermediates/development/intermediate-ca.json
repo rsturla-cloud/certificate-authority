@@ -1,0 +1,20 @@
+{
+    "CN": "Robert's Development AWS Intermediate CA",
+    "key": {
+        "algo": "rsa",
+        "size": 2048
+    },
+    "names": [
+        {
+            "C": "UK",
+            "L": "London",
+            "O": "Robert's AWS",
+            "OU": "Development Intermediate CA",
+            "ST": "England"
+        }
+    ],
+    "ca": {
+        "is_ca": true,
+        "expiry": "42720h"
+    }
+}

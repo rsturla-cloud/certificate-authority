@@ -1,0 +1,12 @@
+{
+    "CN": "Robert's AWS Root CA",
+    "names": [
+        {
+            "C": "UK",
+            "L": "London",
+            "O": "Robert's AWS",
+            "OU": "Root CA",
+            "ST": "England"
+        }
+    ]
+}

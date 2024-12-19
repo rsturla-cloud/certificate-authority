@@ -1,0 +1,42 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:best-practices"
+    ],
+    "packageRules": [
+        {
+            // Automatically update minor versions of common GitHub Actions
+            "automerge": true,
+            "matchManagers": [
+                "github-actions"
+            ],
+            "matchUpdateTypes": [
+                "minor",
+                "patch",
+                "pin",
+                "digest",
+                "pinDigest"
+            ],
+            "matchDepNames": [
+                "actions/checkout",
+                "trufflesecurity/trufflehog",
+                "actions/dependency-review-action",
+                "advanced-security/set-codeql-language-matrix",
+                "github/codeql-action/init",
+                "github/codeql-action/autobuild",
+                "github/codeql-action/analyze"
+            ]
+        },
+        // Disable Renovate version pinning for Dockerfiles
+        {
+            "matchManagers": [
+                "dockerfile"
+            ],
+            "matchUpdateTypes": [
+                "digest",
+                "pinDigest"
+            ],
+            "enabled": false
+        }
+    ]
+}

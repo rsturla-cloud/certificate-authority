@@ -1,0 +1,6 @@
+{
+    "CN": "Cert Manager",
+    "hosts": [
+        "cm.example.com"
+    ]
+}

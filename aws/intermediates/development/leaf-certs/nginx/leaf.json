@@ -1,0 +1,6 @@
+{
+    "CN": "Nginx",
+    "hosts": [
+        "nginx.example.com"
+    ]
+}
